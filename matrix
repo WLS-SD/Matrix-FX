@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#Green="\e[92m"
+#printf "${Green}"
+
+
+
+
+while true
+do
+
+
+
+
+a=`echo {a..z}|tr -s " " "\n"|sort -R|xargs`
+
+
+echo -e " \e[92m  $a "
+
+
+                 
+echo -e " \e[91m $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9))"
+
+
+
+
+done
+
