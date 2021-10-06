@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#Green="\e[92m"
+#printf "${Green}"
+
+
+
+
+while true
+do
+
+
+#Light Green
+
+a=`echo {a..z}|tr -s " " "\n"|sort -R|xargs`
+
+
+echo -e " \e[92m  $a "
+
+sleep 0.1
+
+
+
+#Light Red
+
+echo -e " \e[91m $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9))"
+
+sleep 0.1
+
+#light yellow
+
+
+echo -e " \e[93m  $a "
+sleep 0.1
+
+#light blue
+echo -e " \e[96m $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9)) $(($RANDOM%9))"
+sleep 0.1
+
+
+#green
+
+
+echo -e " \e[32m  $a "
+
+sleep 0.1
+done
